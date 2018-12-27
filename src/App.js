@@ -6,6 +6,9 @@ import "./App.css";
 import Container from "./pages/App";
 import store from "./redux/store";
 const theme = createMuiTheme({
+  typography: {
+    useNextVariants: true
+  },
   palette: {
     primary: {
       main: `#1aad19`
